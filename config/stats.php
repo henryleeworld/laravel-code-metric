@@ -15,7 +15,6 @@ return [
      * List of files/folders to be excluded from analysis.
      */
     'exclude' => [
-        base_path('tests/bootstrap.php'),
         // base_path('app/helpers.php'),
         // base_path('app/Services'),
     ],
@@ -45,7 +44,7 @@ return [
 
     /*
      * Namespaces which should be ignored.
-     * Laravel Stats uses the `Str::startsWith()`class to
+     * Laravel Stats uses the `Str::startsWith()` helper to
      * check if a Namespace should be ignored.
      *
      * You can use `Illuminate` to ignore the entire `Illuminate`-namespace

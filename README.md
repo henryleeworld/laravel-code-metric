@@ -1,4 +1,4 @@
-# Laravel 7 程式碼度量
+# Laravel 8 程式碼度量
 
 引入 wnx 的 laravel-stats 套件來擴增解析原始碼，取得一些基本數據，如原始碼行數（loc），會把註解去除後，計算所有程式碼的行數。目的是了解程式碼的現況，並不是設定一個標準數字讓大家完全遵守。
 
@@ -28,8 +28,8 @@ $ php artisan stats --verbose
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/1grmMw1.png)
+![](https://i.imgur.com/Wgs8961.png)
 > 程式碼行數越多，閱讀理論上會花比較多時間，但不是絕對
 
-![](https://i.imgur.com/fZlkLIw.png)
+![](https://i.imgur.com/Mjm8kf8.png)
 > 編寫的程式碼元件獲得客觀和量化的量測結果
